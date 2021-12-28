@@ -1,0 +1,13 @@
+git init -> we create new dir. and open it
+git clone https://github.com/AliNajafli/number9.git -> create  working copy of repository this command
+git add . -> add index this command
+git commit -m "First" -> commit all changes
+git push origin master ->  send changes to repo
+git remote add orign master -> connecct with repo
+git checkout -b feature -> creating new branch
+git checkout master -> switch back
+git merge feature-> merging other brach
+git status -> check stastus
+git diff master feature ->difference between branch
+
+
