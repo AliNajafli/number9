@@ -1,0 +1,19 @@
+1.
+git init -> we create new dir. and open it
+git clone https://github.com/AliNajafli/number9.git -> create  working copy of repository this command
+git commit -m "First" -> commit all changes
+git push origin master ->  send changes to repo
+git remote add orign master -> connecct with repo
+2.Simulate a conflict, resolve it and and explain its resolution
+git add .
+git commit -m "commit"
+git checkout -b test
+git checkout master
+git commit -m "commit2"
+git merge test
+git status
+git log
+3.
+git checkout -b feature -> creating new branch
+git checkout master -> switch back
+git merge feature-> merging other brach
